@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GridLayout xmlns="http://schemas.nativescript.org/tns.xsd" rows="auto" columns="*" class="m-2">
+    <StackLayout>
+        <Repeater items="{{ guesses }}">
+            <Repeater.itemTemplate>
+                <GridLayout columns="*,*,*,*,*" class="justify-center m-1">
+                    <Label col="0" text="{{ $value[0].letter }}" class="tile {{ $value[0].status }}-tile" />
+                    <Label col="1" text="{{ $value[1].letter }}" class="tile {{ $value[1].status }}-tile" />
+                    <Label col="2" text="{{ $value[2].letter }}" class="tile {{ $value[2].status }}-tile" />
+                    <Label col="3" text="{{ $value[3].letter }}" class="tile {{ $value[3].status }}-tile" />
+                    <Label col="4" text="{{ $value[4].letter }}" class="tile {{ $value[4].status }}-tile" />
+                </GridLayout>
+            </Repeater.itemTemplate>
+        </Repeater>
+    </StackLayout>
+</GridLayout>

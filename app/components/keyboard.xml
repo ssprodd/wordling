@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GridLayout xmlns="http://schemas.nativescript.org/tns.xsd" rows="auto,auto,auto" columns="*" class="p-2">
+    <GridLayout row="0" columns="*,*,*,*,*,*,*,*,*,*" class="justify-center">
+        <Button col="0" text="Q" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['Q'] }}-tile" />
+        <Button col="1" text="W" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['W'] }}-tile" />
+        <Button col="2" text="E" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['E'] }}-tile" />
+        <Button col="3" text="R" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['R'] }}-tile" />
+        <Button col="4" text="T" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['T'] }}-tile" />
+        <Button col="5" text="Y" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['Y'] }}-tile" />
+        <Button col="6" text="U" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['U'] }}-tile" />
+        <Button col="7" text="I" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['I'] }}-tile" />
+        <Button col="8" text="O" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['O'] }}-tile" />
+        <Button col="9" text="P" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['P'] }}-tile" />
+    </GridLayout>
+    <GridLayout row="1" columns="*,*,*,*,*,*,*,*,*" class="justify-center">
+        <Button col="0" text="A" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['A'] }}-tile" />
+        <Button col="1" text="S" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['S'] }}-tile" />
+        <Button col="2" text="D" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['D'] }}-tile" />
+        <Button col="3" text="F" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['F'] }}-tile" />
+        <Button col="4" text="G" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['G'] }}-tile" />
+        <Button col="5" text="H" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['H'] }}-tile" />
+        <Button col="6" text="J" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['J'] }}-tile" />
+        <Button col="7" text="K" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['K'] }}-tile" />
+        <Button col="8" text="L" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['L'] }}-tile" />
+    </GridLayout>
+    <GridLayout row="2" columns="auto,*,*,*,*,*,auto" class="justify-center">
+        <Button col="0" text="ENTER" tap="{{ onEnter }}" class="w-16 h-10 m-1" />
+        <Button col="1" text="Z" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['Z'] }}-tile" />
+        <Button col="2" text="X" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['X'] }}-tile" />
+        <Button col="3" text="C" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['C'] }}-tile" />
+        <Button col="4" text="V" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['V'] }}-tile" />
+        <Button col="5" text="B" tap="{{ onKeyTap }}" class="w-10 h-10 m-1 {{ keyboardStatus['B'] }}-tile" />
+        <Button col="6" text="⌫" tap="{{ onBackspace }}" class="w-16 h-10 m-1" />
+    </GridLayout>
+</GridLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" 
+      xmlns:components="components"
+      navigatingTo="navigatingTo">
+    <ActionBar title="Wordle" />
+    
+    <StackLayout class="bg-gray-100">
+        <Label text="{{ gameStatus }}" class="game-status" textWrap="true" />
+        <components:GameGrid guesses="{{ guesses }}" />
+        <components:Keyboard keyboardStatus="{{ keyboardStatus }}" />
+    </StackLayout>
+</Page>
